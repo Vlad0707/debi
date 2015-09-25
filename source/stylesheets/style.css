@@ -1,0 +1,239 @@
+
+body { 
+  /*background: url(../images/coast_grass_ocean.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.google_font {
+	font-family: 'IM Fell DW Pica', serif;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.black_writing {
+	color: black;
+}
+
+.white_writing {
+	color: white;
+}
+/* NAVBAR */
+nav {
+	background-image: url("../images/navbar-ocean.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover {
+	color: yellow;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: white;
+}
+
+.nav>li>a {
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+/* SOCIAL IMAGE ICONS */
+.social img {
+	height: 50px;
+	width: 50px;
+	border-radius: 4px;
+	padding-top: 0px;
+}
+
+/* BANNER HEIGHT */
+.navbar-brand {
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.debi {
+	 font-size: 50px;
+}
+
+.whiteWriting {
+	color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: white;
+	background-color: teal;
+	border-radius: 4px;
+}
+
+.phone {
+	font-size: 30px;
+	color: white;
+	float: right;
+	clear: right;
+}
+
+/* FOOTER */ 
+.cred li {
+	display: inline;
+	margin-left: 5%;
+}
+
+article {
+	font-size: 2em;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.boxes img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	margin-bottom: 6%;
+	display: block;
+	border-radius: 5px;
+}
+
+
+.debi_life_coach h1 {
+	text-align: center;
+}
+
+.debi_life_coach article, p {
+	font-size: 18px;
+}
+
+.quote {
+	font-size: 16px;
+	font-style: italic;
+	padding: 0 10%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.debi_stickeler_life_coach_picture {
+	border-radius: 100%;
+	max-height: 400px;
+}
+
+.debi_stickeler_life_coach_picture::before, .debi_stickeler_life_coach_picture::after {
+	clear: both;
+}
+
+.about_me p {
+	font-size: 18px;
+}
+
+.about_me_tabs {
+	color: white;
+	background-color: teal;
+	width: 400px;
+	text-align: center;
+	border-radius: 4px;
+	margin-bottom: 2%;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.explanation h2::after {
+	clear: both;
+}
+
+.explanation p {
+	margin-bottom: 10px;
+}
+
+.contact_boxes {
+	position: relative;
+	bottom: 100px;
+	color: white;
+	text-align: center;
+}
+
+.contact {
+	margin: 0 auto;
+	text-decoration: bold;
+	font-size: 40px;
+	text-align: center;
+	background-color: teal;
+	margin-bottom: 80px;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+
+.contact a {
+	color: white;
+}
+
+.testimonials {
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.testimonial {
+	font-size: 1.3em;
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	max-width: 70%;
+}
+
+.testimonial:nth-child(even) {
+	color: white;
+	float: left;
+	background-color: teal;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.testimonial:nth-child(odd) {
+	color: white;
+	background-color: #5db4f7;
+	float: right;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+footer {
+	background-color: lightgray;
+	height: 40px;
+
+}
+
+@media(max-width:768) {
+	.navigation {
+		margin-bottom: 10px;
+
+	}
+
+	.social img {
+		display: none;
+	}
+
+	
+}
+@media(max-width: 1068px) {
+	.phone {
+		display: none;
+	}
+}
+@media(max-width: 767px) {
+
+
+}
+ 

@@ -1,0 +1,47 @@
+body {
+	height: 1000px;
+	background-color: black;
+}
+
+.row {
+	background-color: yellow;
+}
+
+.col_left {
+	width: 30%;
+	padding: 10px;
+}
+
+.col_right {
+	width: 65%;
+	padding: 10px;
+}
+
+.debi {
+	font-size: 50px;
+	background-color: orange;
+}
+
+.life_coach {
+	font-size: 30px;
+	background-color: green;
+}
+
+ul {
+	
+}
+
+li {
+	width: 70px;
+	height: 50px;
+	color: white;
+	background-color: teal;
+	list-style: none;
+	text-align: center;
+	display: inline;
+	margin: 0 auto;
+}
+
+.phone {
+	font-size: 30px;
+}
