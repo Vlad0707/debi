@@ -80,19 +80,6 @@ nav {
 	clear: right;
 }
 
-/* FOOTER */ 
-.cred li {
-	display: inline;
-	margin-left: 5%;
-}
-
-article {
-	font-size: 2em;
-	background-color: white;
-	opacity: 0.8;
-	border-radius: 4px;
-}
-
 .boxes img {
 	width: 100%;
 	max-width: 500px;
@@ -102,6 +89,47 @@ article {
 	border-radius: 5px;
 }
 
+.col-md-4 {
+	position: relative;
+	overflow: hidden;
+}
+
+.inside_box {
+	position: absolute;
+	top: 190px;
+	color: transparent;
+	height: 500px;
+	padding-left: 5%;
+	padding-right: 5%;
+	transition: top .7s;
+}
+
+.inside_box>p {
+	opacity: 
+}
+
+.inside_box>h3 {
+	color: white;
+	opacity: 0.92;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 3px;
+}
+
+.col-md-4:hover .inside_box, .inside_box>h3 {
+	top: 0px;
+	opacity: 0.92;
+	background-color: white;
+	color: green;
+}
+
+article {
+	font-size: 2em;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 4px;
+}
 
 .debi_life_coach h1 {
 	text-align: center;
@@ -209,31 +237,78 @@ article {
 	padding: 10px;
 }
 
+/* FOOTER */ 
+.cred li {
+	display: inline;
+	margin-left: 5%;
+}
+
 footer {
 	background-color: lightgray;
 	height: 40px;
 
 }
 
-@media(max-width:768) {
+/* MEDIA QUERIES */
+
+
+@media(max-width: 1199px) {
+	.inside_box p {
+		font-size: 16px;
+	}
+	.inside_box {
+		top: 150px;
+	}
+}
+ 
+@media(max-width: 1068px) {
+	.phone {
+		display: none;
+	}
+	.inside_box {
+		top: 160px;
+	}
+}
+
+@media(max-width: 991px) {
+	.inside_box {
+		max-width: 500px;
+	}
+	.col-md-4 {
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+	}
+	.inside_box h3 {
+		font-size: 30px;
+	}
+	.inside_box p {
+		font-size: 25px;
+	}
+	.inside_box {
+		top: 275px;
+	}
+
+}
+
+@media(max-width: 768px) {
 	.navigation {
 		margin-bottom: 10px;
-
 	}
 
 	.social img {
 		display: none;
 	}
-
-	
-}
-@media(max-width: 1068px) {
-	.phone {
-		display: none;
+	.inside_box {
+		top: 160px;
 	}
 }
-@media(max-width: 767px) {
 
-
+@media(max-width: 500px) {
+	.col-md-4>img, .inside_box {
+		width: 350px;
+	}
+	.inside_box>p {
+		font-size: 19px;
+	}
 }
- 
