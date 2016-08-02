@@ -21,6 +21,10 @@
 	color: white;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* NAVBAR */
 
 nav {
@@ -105,16 +109,20 @@ nav {
 .debi_quote {
 	/*max-width: 80%;*/
 	margin-left: 0;
-	// font-size: 36px;
+	font-size: 31px;
+	// font-style: normal;
+	// font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background-color: #008080;
+	border-radius: 5px;
 }
 
-.bullets {
-	margin-bottom: 40px;
+.fundamentals {
+	margin-bottom: 20px;
 }
-
-.bullets li {
-	font-size: 1.4em;
-	line-height: 1.7em;
+.fundamentals > li {
+	font-size: 18px;
 }
 
 // .first_bullet_part {
@@ -178,6 +186,7 @@ nav {
 .inside_box>p {
 	margin-left: 2%;
 	margin-right: 25px;
+	text-align: left;
 }
 
 .col-md-4:hover .inside_box, .inside_box>div {
