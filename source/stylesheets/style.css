@@ -130,21 +130,32 @@ nav {
 	border-radius: 5px;
 }
 
+h4 {
+	text-align: center;
+}
+
 .home_page_titles {
 	color: white;
 	background-color: teal;
-	display: inline;
 	padding-right: 10px;
-	padding-left: 5px;
+	padding-left: 10px;
 	border-radius: 5px;
+	display: inline;
 }
 
 .fundamentals {
 	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fundamentals, .home_page_titles {
+	
 }
 .fundamentals > li {
 	font-size: 18px;
+	list-style-type: none;
 }
+
 
 // .first_bullet_part {
 // 	background-color: #f9ee70;
@@ -227,7 +238,30 @@ article {
 	border-radius: 4px;
 }
 
+.home_final_phrase {
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+}
 
+.homepage_aboutlink {
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.homepage_aboutlink a {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	background-color: #008080;
+	box-sizing: border-box;
+	
+}
 /* ABOUT ME */
 
 .debi_home_pic {
